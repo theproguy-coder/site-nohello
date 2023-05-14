@@ -1,5 +1,5 @@
 {
-  "name": "nohello.net",
+  "name": "nohello.zukrblx.com",
   "description": "please don't say just hello in chat",
   "version": "1.0.0",
   "license": "MIT",
@@ -10,7 +10,7 @@
   "scripts": {
     "11ty": "yarn esr --cache ./node_modules/.bin/eleventy --config ./.eleventy.ts",
     "build": "yarn 11ty",
-    "serve": "yarn 11ty --serve --port=PORT",
+    "serve": "yarn 11ty --serve --port=$PORT",
     "check-snapshots": "act -j check-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:v1.16.3 -W ./.github/local-workflows --reuse --artifact-server-path build-artifacts; yarn post-snapshots",
     "update-snapshots": "act -j update-snapshots -P ubuntu-latest=mcr.microsoft.com/playwright:v1.16.3 -W ./.github/local-workflows --reuse --artifact-server-path build-artifacts; yarn post-snapshots",
     "post-snapshots": "./bin/post-snapshots.ts",
@@ -22,8 +22,8 @@
     "test:unit": "mocha --require esbuild-runner/register test/unit/**/*.ts",
     "typecheck": "tsc --noEmit",
     "typecheck:watch": "tsc --noEmit --watch",
-    "ci:ui": "start-server-and-test serve PORT test:ui",
-    "ci:ui:update": "start-server-and-test serve PORT test:ui:update",
+    "ci:ui": "start-server-and-test serve $PORT test:ui",
+    "ci:ui:update": "start-server-and-test serve $PORT test:ui:update",
     "strings:push": "tx push",
     "strings:pull": "tx pull",
     "postinstall": "patch-package"
