@@ -1,3 +1,3 @@
-const BASE_URL = 'http://localhost:PORT/';
+const BASE_URL = 'http://localhost:$PORT/';
 
 export { BASE_URL };
