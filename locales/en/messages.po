@@ -10,7 +10,7 @@ msgid "header.subtitle"
 msgstr "please don't say just hello in chat"
 
 msgid "header.introduction"
-msgstr "Imagine joining a *ZUK* discord call, saying _"hello!"_ to your friends, and then muting yourself for the rest of the conversation... 🤦‍♀️"
+msgstr "Imagine joining a *ZUK* discord call, saying _hello!_ to your friends, and then muting yourself for the rest of the conversation... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "zeus"
