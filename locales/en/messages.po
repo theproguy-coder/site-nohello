@@ -10,19 +10,19 @@ msgid "header.subtitle"
 msgstr "please don't say just hello in chat"
 
 msgid "header.introduction"
-msgstr "Imagine calling someone on the phone, going _hello!_ then putting them on hold... 🤦‍♀️"
+msgstr "Imagine joining a *ZUK* discord call, saying _"hello!"_ to your friends, and then muting yourself for the rest of the conversation... 🤦‍♀️"
 
 msgid "example.character.neutral.name"
-msgstr "Tim"
+msgstr "zeus"
 
 msgid "example.character.neutral.avatar-description"
-msgstr "Tim's Slack avatar"
+msgstr "zeus' Discord avatar"
 
 msgid "example.character.bad.name"
-msgstr "Keith"
+msgstr "Richard"
 
 msgid "example.character.bad.avatar-description"
-msgstr "Keith's Slack avatar"
+msgstr "Richard's Discord avatar"
 
 msgid "example.character.good.name"
 msgstr "Dawn"
@@ -36,7 +36,7 @@ msgstr "❌ Don't do this"
 # the placeholder is the year, i.e. "2022"
 msgid "example.bad.body"
 msgstr ""
-"Note that Keith could have got his answer minutes sooner, and needn't have kept Tim waiting. In fact, Tim could have started thinking about the question right away!\n"
+"Note that Richard could have got his answer minutes sooner, and needn't have kept zeus waiting. In fact, zeus could have started thinking about the question right away!\n"
 "\n"
 "People who do this are generally trying to be polite by not jumping right into the request, like one would in person or on the phone - and that's great! But it's %1$s and chat is neither of those things. For most people, typing is much slower than talking. So despite best intentions, **you're actually just making the other person wait** for you to phrase your question, which is lost productivity (and kinda annoying).\n"
 "\n"
@@ -68,13 +68,13 @@ msgstr "2:20 PM"
 
 # the typo here is intentional - please maintain a similar unprofessional tone!
 msgid "example.bad.message2.body"
-msgstr "what time was taht thing again?"
+msgstr "what time is police tryout?"
 
 msgid "example.bad.reply2.timestamp"
 msgstr "2:20 PM"
 
 msgid "example.bad.reply2.body"
-msgstr "oh - 3:30 mate"
+msgstr "check the employment channels in the zuk discord"
 
 msgid "example.good.title"
 msgstr "✅ Instead try this"
@@ -126,8 +126,4 @@ msgid "footer.warning"
 msgstr "That said, if you see this sites URL as someone's status/bio, be prepared to be ignored if you only say \"Hello!\""
 
 msgid "footer.thanks"
-msgstr "Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/nohello-net/site)."
-
-# prefix before a list of languages, i.e. This site is available in: English, French, & German
-msgid "footer.languages"
-msgstr "This site is available in:"
+msgstr "Based on the wonderful [nohello.com](https://web.archive.org/web/20131127020115/http://www.nohello.com/). Avatars taken from Discord."
